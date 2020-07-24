@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADC29B9C68B08AD0F0BD4F92 /* Pods_Bonfire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AC03C8074C157F8A096965 /* Pods_Bonfire.framework */; };
 		AEBCC35D24C9111600D84AD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBCC35C24C9111600D84AD0 /* AppDelegate.swift */; };
 		AEBCC35F24C9111600D84AD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBCC35E24C9111600D84AD0 /* SceneDelegate.swift */; };
-		AEBCC36124C9111600D84AD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBCC36024C9111600D84AD0 /* ViewController.swift */; };
+		AEBCC36124C9111600D84AD0 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBCC36024C9111600D84AD0 /* HomeController.swift */; };
 		AEBCC36424C9111600D84AD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBCC36224C9111600D84AD0 /* Main.storyboard */; };
 		AEBCC36624C9111700D84AD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBCC36524C9111700D84AD0 /* Assets.xcassets */; };
 		AEBCC36924C9111700D84AD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBCC36724C9111700D84AD0 /* LaunchScreen.storyboard */; };
+		AEE1923324C917EA00887A5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEE1923224C917EA00887A5F /* GoogleService-Info.plist */; };
+		AEE1923524CA930000887A5F /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE1923424CA930000887A5F /* ContainerController.swift */; };
+		AEE1923724CA931300887A5F /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE1923624CA931300887A5F /* MenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E9B408556274EEF0C5FEE40 /* Pods-Bonfire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bonfire.release.xcconfig"; path = "Target Support Files/Pods-Bonfire/Pods-Bonfire.release.xcconfig"; sourceTree = "<group>"; };
 		AEBCC35924C9111600D84AD0 /* Bonfire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bonfire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBCC35C24C9111600D84AD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEBCC35E24C9111600D84AD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AEBCC36024C9111600D84AD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEBCC36024C9111600D84AD0 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		AEBCC36324C9111600D84AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEBCC36524C9111700D84AD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEBCC36824C9111700D84AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEBCC36A24C9111700D84AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEE1923224C917EA00887A5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AEE1923424CA930000887A5F /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		AEE1923624CA931300887A5F /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		C2AC03C8074C157F8A096965 /* Pods_Bonfire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bonfire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDC887388505D923E638987 /* Pods-Bonfire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bonfire.debug.xcconfig"; path = "Target Support Files/Pods-Bonfire/Pods-Bonfire.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC29B9C68B08AD0F0BD4F92 /* Pods_Bonfire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				AEBCC35B24C9111600D84AD0 /* Bonfire */,
 				AEBCC35A24C9111600D84AD0 /* Products */,
+				BCF64DFBFBD425403C946B82 /* Pods */,
+				D72822B8E6E2F7C9EC3CE249 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +69,43 @@
 		AEBCC35B24C9111600D84AD0 /* Bonfire */ = {
 			isa = PBXGroup;
 			children = (
+				AEE1923824CA933600887A5F /* Controllers */,
 				AEBCC35C24C9111600D84AD0 /* AppDelegate.swift */,
 				AEBCC35E24C9111600D84AD0 /* SceneDelegate.swift */,
-				AEBCC36024C9111600D84AD0 /* ViewController.swift */,
 				AEBCC36224C9111600D84AD0 /* Main.storyboard */,
 				AEBCC36524C9111700D84AD0 /* Assets.xcassets */,
 				AEBCC36724C9111700D84AD0 /* LaunchScreen.storyboard */,
 				AEBCC36A24C9111700D84AD0 /* Info.plist */,
+				AEE1923224C917EA00887A5F /* GoogleService-Info.plist */,
 			);
 			path = Bonfire;
+			sourceTree = "<group>";
+		};
+		AEE1923824CA933600887A5F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AEBCC36024C9111600D84AD0 /* HomeController.swift */,
+				AEE1923424CA930000887A5F /* ContainerController.swift */,
+				AEE1923624CA931300887A5F /* MenuController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BCF64DFBFBD425403C946B82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBDC887388505D923E638987 /* Pods-Bonfire.debug.xcconfig */,
+				6E9B408556274EEF0C5FEE40 /* Pods-Bonfire.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D72822B8E6E2F7C9EC3CE249 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2AC03C8074C157F8A096965 /* Pods_Bonfire.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEBCC36D24C9111700D84AD0 /* Build configuration list for PBXNativeTarget "Bonfire" */;
 			buildPhases = (
+				D8E54F0DE7190113F9F06FCD /* [CP] Check Pods Manifest.lock */,
 				AEBCC35524C9111600D84AD0 /* Sources */,
 				AEBCC35624C9111600D84AD0 /* Frameworks */,
 				AEBCC35724C9111600D84AD0 /* Resources */,
+				A59E4E1D01521268605C72AD /* [CP] Embed Pods Frameworks */,
+				5A3809C3D199EAAA84655B90 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEBCC36924C9111700D84AD0 /* LaunchScreen.storyboard in Resources */,
+				AEE1923324C917EA00887A5F /* GoogleService-Info.plist in Resources */,
 				AEBCC36624C9111700D84AD0 /* Assets.xcassets in Resources */,
 				AEBCC36424C9111600D84AD0 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +178,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A3809C3D199EAAA84655B90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bonfire/Pods-Bonfire-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bonfire/Pods-Bonfire-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bonfire/Pods-Bonfire-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A59E4E1D01521268605C72AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bonfire/Pods-Bonfire-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bonfire/Pods-Bonfire-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bonfire/Pods-Bonfire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E54F0DE7190113F9F06FCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bonfire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AEBCC35524C9111600D84AD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEBCC36124C9111600D84AD0 /* ViewController.swift in Sources */,
+				AEE1923724CA931300887A5F /* MenuController.swift in Sources */,
+				AEBCC36124C9111600D84AD0 /* HomeController.swift in Sources */,
 				AEBCC35D24C9111600D84AD0 /* AppDelegate.swift in Sources */,
 				AEBCC35F24C9111600D84AD0 /* SceneDelegate.swift in Sources */,
+				AEE1923524CA930000887A5F /* ContainerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +388,7 @@
 		};
 		AEBCC36E24C9111700D84AD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBDC887388505D923E638987 /* Pods-Bonfire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +407,7 @@
 		};
 		AEBCC36F24C9111700D84AD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E9B408556274EEF0C5FEE40 /* Pods-Bonfire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
